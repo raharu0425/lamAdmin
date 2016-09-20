@@ -57,7 +57,8 @@ if (!defined('APP_DIR')) {
  * The following line differs from its sibling
  * /app/webroot/index.php
  */
-define('CAKE_CORE_INCLUDE_PATH',  DS . 'Users' . DS . 'raharu' . DS . 'work' . DS . 'lilycAutoMatonServer' . DS . 'vendors' . DS . 'cakephp' . DS . 'cakephp' . DS . 'lib');
+//define('CAKE_CORE_INCLUDE_PATH',  DS . 'Users' . DS . 'raharu' . DS . 'work' . DS . 'lilycAutoMatonServer' . DS . 'vendors' . DS . 'cakephp' . DS . 'cakephp' . DS . 'lib');
+define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . 'vendors' . DS . 'cakephp' . DS . 'cakephp' . DS . 'lib');
 
 /**
  * This auto-detects CakePHP as a composer installed library.
